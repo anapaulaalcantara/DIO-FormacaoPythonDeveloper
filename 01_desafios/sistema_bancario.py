@@ -53,7 +53,6 @@ while True:
     # 2-Saque
     elif opcao == "2":
 
-        # falta colocar um contador para cada saque
         if numero_saques < LIMITE_NUMERO_SAQUES:
             valor_saque = float(input("Informe o valor do saque: R$ "))
 
