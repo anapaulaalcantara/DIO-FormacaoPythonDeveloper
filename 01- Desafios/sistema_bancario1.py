@@ -1,17 +1,20 @@
 '''
-3 operações
+Versão 1
+- Apenas 1 usuário
+- 3 operações:
 
-1-depósito
-    valores positivos
-    armazenado em uma variável e exibidos no extrato
-2-saque
-    3 saques diários
-    limite maximo de R$500 por saque
-    caso saldo < saque "Saldo insuficiente para realizar o saque."    
-    armazenado em uma variável e exibidos no extrato          
-3-extrato
-    listar todos depositos e saques
-    no final exibir saldo atual R$xxx.xx
+    1-depósito
+        valores positivos
+        armazenado em uma variável e exibidos no extrato
+    2-saque
+        3 saques diários
+        limite maximo de R$500 por saque
+        caso saldo < saque "Saldo insuficiente para realizar o saque."    
+        armazenado em uma variável e exibidos no extrato          
+    3-extrato
+        listar todos depositos e saques
+        no final exibir saldo atual R$xxx.xx
+
 
 
 '''
@@ -25,7 +28,7 @@ Escolha uma opção:
 [3] Extrato
 [4] Sair
 
-'''
+=> '''
 
 saldo = 30 
 limite_por_saque = 500
